@@ -1,0 +1,83 @@
+*{margin:0;padding:0;font-size: 12px;list-style:none;}
+a{text-decoration: none;color:#738197}
+a:hover{text-decoration: underline;cursor: pointer;}
+h2{border-bottom: 1px solid #cce6f5;line-height: 25px;font-weight: bold;margin:10px 0;overflow: hidden;}
+h2 a{font-size:18px;float: left;color:#266392;}
+h2 span a{font-size:13px;font-weight: normal;float: right;}
+#header{height:22px;background:url(../images/header_nav.gif) repeat-x;overflow:hidden;}
+#header ul li{padding-left: 5px;line-height: 22px;float:left;}
+/*如何实现居中右移对齐*/
+.top_link_box{position: absolute;right:0px;width:32%;}
+/*利用position属性实现的对齐可是宽度定位是怎么定的呢？*/
+#wrap{width: 910px;margin:0 auto;}
+#nav,#mainbox{width:100%;margin-bottom: 10px;overflow: hidden;}
+#nav{margin-top: 10px;}
+#nav h1{float:left;background:url(../images/logo.gif) no-repeat;width:217px;height:63px;text-indent:-999px;cursor: pointer;}
+#nav dl{float:right;line-height: 22px;}
+#nav dt{font-size:14px;font-weight: bold;margin-top: 10px;}
+.content{background:url(../images/navbg.gif) no-repeat;width:910px;height:36px;}
+.content ul{width: 94%;margin:0 auto;}
+/*注意！！ul包含的块宽度设置94%并且内容横向居中*/
+/*此处没有加overflow就是想让让浮动元素与span互相影响*/
+.content ul li{float:left;margin:0 20px;line-height: 36px;}
+.content ul li a{color:#e8ffff;font-weight: bold;font-size: 16px;}
+
+.home{background: url(../images/home.gif) 0 4px no-repeat;width:88px;text-align: center;}
+/*让首页两个字居中*/
+.content li.home a{color: #000;}/*注意这边选择符的使用*/
+ p{float:right;background:url(../images/arrow_r.gif) 0 8px no-repeat;padding-left:18px;margin:0 30px;}
+/*此处内边距和外边距分别为箭头左内整个span块外边距*/ 
+.arrow_r a{float: right;color: #fff;font-weight: bold;font-size:14px;line-height:30px; }
+.arrow_r span{font-size: 20px;padding-right:2px; }
+
+.softwarelist{margin: 10px 0;width: 600px;float: left; }
+.softwarelist img{margin-bottom:10px;}
+.softwarelist ul li{overflow: hidden;}
+.softwarelist dl{line-height:25px;margin:10px 0;float:left;}
+.softwarelist dl dt a{color:#266392;font-size: 15px;font-weight: bold;text-decoration: underline;cursor: pointer;}
+.softwarelist dl dd{font-size: 14px;}
+.softwarelist dt span{padding-left: 15px;color:#828284}
+.download{float:right;margin-top:15px;background:url(../images/downicon.gif) no-repeat;padding-left:10px;overflow: hidden;}
+.download a{text-decoration: underline;font-size: 13px;color:#266392;}
+.software_1 .new{background: url(../images/new.gif) 147px 2px no-repeat;padding-right:12px;}
+.software_5 .new{background: url(../images/new.gif) 97px 2px no-repeat;padding-right:12px;}
+.software_6 .new{background: url(../images/new.gif) 70px 2px no-repeat;padding-right:12px;}
+.software_1{background:url(../images/soft1.gif) 0 5px no-repeat;padding-left:45px;}
+.software_2{background:url(../images/soft2.gif) 0 5px no-repeat;padding-left:45px;}
+.software_3{background:url(../images/soft3.gif) 0 5px no-repeat;padding-left:45px;}
+.software_4{background:url(../images/soft4.gif) 0 5px no-repeat;padding-left:45px;}
+.software_5{background:url(../images/soft5.gif) 0 5px no-repeat;padding-left:45px;}
+.software_6{background:url(../images/soft6.gif) 0 5px no-repeat;padding-left:45px;}
+.software_7{background:url(../images/soft7.gif) 0 5px no-repeat;padding-left:45px;}
+.software_8{background:url(../images/soft8.gif) 0 5px no-repeat;padding-left:45px;}
+.software_9{background:url(../images/soft9.gif) 0 5px no-repeat;padding-left:45px;}
+.sidebar{float: right;overflow: hidden;}
+.sidebar .box{margin-bottom: 5px;overflow: hidden;}
+.box h2{color:black;font-size: 18px;}
+.box{overflow: hidden;width:285px;}
+/*很重要！！！*/
+
+.sidebar li{line-height: 23px;}
+.sidebar li a{color:#256392;font-size: 13px;}
+.box .download{float:right;margin-top:0px;background:url(../images/downicon.gif) 0 5px no-repeat;padding-left:10px;overflow: hidden;}
+.b_b li{text-decoration:underline;line-height: 30px;}
+/*.list{text-align: center;}*/
+/*.list li{float:left;margin: 0 15px;}*/
+
+.sft1{margin-top:20px;background:url(../images/sft1.gif) 0 7px no-repeat;padding-left: 20px;}
+.sft2{background:url(../images/sft2.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft3{background:url(../images/sft3.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft4{background:url(../images/sft4.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft5{background:url(../images/sft5.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft6{background:url(../images/sft6.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft7{background:url(../images/sft7.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft8{background:url(../images/sft8.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft9{background:url(../images/sft9.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft10{background:url(../images/sft10.gif) 0 -3px no-repeat;padding-left: 20px;}
+.sft11{background:url(../images/sft11.gif) 0 -3px no-repeat;padding-left: 20px;}
+.list{margin:16px 0 0 9px;}
+.list a{float: left;width: 80px;padding: 0 0 0 5px;color:#256392;line-height: 23px;}
+/*让文字居中排列——很重要！！！*/
+#footer{clear: both;text-align: center;color: #9e9e9e;line-height:30px;}
+td a{padding-left:15px;line-height: 23px; }
+/*用表格实现纵向对齐*/
